@@ -1,0 +1,15 @@
+!R:A;B;C;D;E
+!fd:A->BC
+!fd:B->EC 
+!compute
+!print
+!isbcnf
+!decompose
+!print
+!key:A
+!superkey:A
+!key:AD
+!key:B
+!key:A
+!clear
+!exit
